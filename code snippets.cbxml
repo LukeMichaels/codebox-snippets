@@ -1,0 +1,250 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>3EAC816D-E733-4FC6-871F-4F27C21EB2E4</UUID>
+        <nextObjectID>129</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>641</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>Asset</key>
+                        <data>
+		tyQotsO8NDvt1XE0n7ISUiSHKjen9suD2Y4EXGRd56I=
+		</data>
+                        <key>Folder</key>
+                        <data>
+		6AflOHiDpCFdpGAdI0h5t/eykc0B/9DCQLuGcURzmWI=
+		</data>
+                        <key>List</key>
+                        <data>
+		f4nmFsXfFk8V4CSJFMVZeV0UVaEd8d49csHd+yfBOO4=
+		</data>
+                        <key>Search</key>
+                        <data>
+		/Di3N1cVqPFGCxVmoUJ3wQ51ctkJsx+xJfuxAdNqToc=
+		</data>
+                        <key>Snippet</key>
+                        <data>
+		4X/rsY/TA70Pj9wVlkKWOTV5xo34weRxc8LfSD+NVD8=
+		</data>
+                        <key>Tag</key>
+                        <data>
+		tynbpfPyYUACFlBsnCbwUvDeu/vffT4ux8pptcOescY=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array>
+                        <string></string>
+                    </array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="SEARCH" id="z102">
+        <attribute name="sort" type="int16">0</attribute>
+        <attribute name="name" type="string">All Snippets</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+    </object>
+    <object type="SNIPPET" id="z104">
+        <attribute name="name" type="string">Grunt Dev page refresh</attribute>
+        <attribute name="modified" type="date">470599814.10991299152374267578</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z112"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z105"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z105">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.php</attribute>
+        <attribute name="content" type="binary">PD9waHAgaWYoIHN0cmlzdHIoICRfU0VSVkVSWydTRVJWRVJfTkFNRSddLCAiLmRldiIgKSApIHsg
+Pz4KCTxzY3JpcHQgc3JjPSIvL2xvY2FsaG9zdDozNTcyOS9saXZlcmVsb2FkLmpzIj48L3NjcmlwdD4KPD9waHAgfSA/Pg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z104"></relationship>
+    </object>
+    <object type="SNIPPET" id="z107">
+        <attribute name="modified" type="date">470967139.07245302200317382812</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z108"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z108">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.txt</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z107"></relationship>
+    </object>
+    <object type="ASSET" id="z109">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.php</attribute>
+        <attribute name="notes" type="string">can change `is_virtual` to `is_downloadable` for downloadable products.</attribute>
+        <attribute name="content" type="binary">PD9waHAgaWYgKCRwcm9kdWN0LT5pc192aXJ0dWFsKCd5ZXMnKSkgeyA/PgogIDwhLS0gZG9uJ3Qg
+c2hvdyBwbHVzIHNoaXBwaW5nIDstKSAtLT4KPD9waHAgfWVsc2V7ID8+CiAgCTxzcGFuIGNsYXNzPSJwbHVzLXNoaXBwaW5nIj5wbHVzIHNoaXBwaW5nPC9zcGFuPgo8P3BocCB9ID8+
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z110"></relationship>
+    </object>
+    <object type="SNIPPET" id="z110">
+        <attribute name="name" type="string">If Product is Virtual</attribute>
+        <attribute name="modified" type="date">470967195.04188299179077148438</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z113"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z109"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z111"></relationship>
+    </object>
+    <object type="TAG" id="z111">
+        <attribute name="name" type="string">woocommerce</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z110"></relationship>
+    </object>
+    <object type="LIST" id="z112">
+        <attribute name="sort" type="int16">3</attribute>
+        <attribute name="name" type="string">grunt</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z104"></relationship>
+    </object>
+    <object type="LIST" id="z113">
+        <attribute name="sort" type="int16">4</attribute>
+        <attribute name="name" type="string">woocommerce</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z110"></relationship>
+    </object>
+    <object type="ASSET" id="z114">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.css</attribute>
+        <attribute name="content" type="binary">LnByb2R1Y3QtdGl0bGUgewogIGRpc3BsYXk6IHRhYmxlLWhlYWRlci1ncm91cDsKfQoucHJvZHVj
+dC1pbWFnZSB7CiAgZGlzcGxheTogdGFibGUtY2VsbDsKICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOwp9Ci5wcm9kdWN0LXByaWNlIHsKICBkaXNwbGF5OiB0YWJsZS1mb290ZXItZ3JvdXA7Cn0=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z116"></relationship>
+    </object>
+    <object type="LIST" id="z115">
+        <attribute name="sort" type="int16">2</attribute>
+        <attribute name="name" type="string">css</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z116"></relationship>
+    </object>
+    <object type="SNIPPET" id="z116">
+        <attribute name="name" type="string">Nice table styling</attribute>
+        <attribute name="modified" type="date">471206058.95434999465942382812</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z115"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z114"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z117">
+        <attribute name="content" type="binary">PD9waHAgYmxvZ2luZm8oJ3RlbXBsYXRlX2RpcmVjdG9yeScpOyA/PgoKLyogaW4gdXNlICovCjxp
+bWcgc3JjPSI8P3BocCBibG9naW5mbygndGVtcGxhdGVfZGlyZWN0b3J5Jyk7ID8+L2Fzc2V0cy9pbWFnZXMvZmFuY3ktYm9yZGVyLnN2ZyI+
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.php</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z118"></relationship>
+    </object>
+    <object type="SNIPPET" id="z118">
+        <attribute name="name" type="string">Get Template Path</attribute>
+        <attribute name="modified" type="date">471226582.47277700901031494141</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z119"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z117"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="LIST" id="z119">
+        <attribute name="sort" type="int16">1</attribute>
+        <attribute name="name" type="string">WordPress</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z126 z121 z128 z122 z124 z118"></relationship>
+    </object>
+    <object type="ASSET" id="z120">
+        <attribute name="content" type="binary">PD9waHAgaWYoIGdldF9maWVsZCgnbWFpbl9ibG9ja190aXRsZScpICk6ID8+CiAgPGgxPjw/cGhw
+IHRoZV9maWVsZCgnbWFpbl9ibG9ja190aXRsZScpOyA/PjwvaDE+Cjw/cGhwIGVuZGlmOyA/Pg==
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.php</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z121"></relationship>
+    </object>
+    <object type="SNIPPET" id="z121">
+        <attribute name="name" type="string">Advanced Form Fields in Template File</attribute>
+        <attribute name="modified" type="date">471226658.16317301988601684570</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z119"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z120"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z122">
+        <attribute name="name" type="string">Get Specific Menu</attribute>
+        <attribute name="modified" type="date">471294024.39769202470779418945</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z119"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z123"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z123">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.php</attribute>
+        <attribute name="content" type="binary">PD9waHAgd3BfbmF2X21lbnUoICdtZW51PWxlZnQtbWVudScgKTsgPz4=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z122"></relationship>
+    </object>
+    <object type="SNIPPET" id="z124">
+        <attribute name="name" type="string">Home Anchor</attribute>
+        <attribute name="modified" type="date">471294197.40180099010467529297</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z119"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z125"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z125">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.php</attribute>
+        <attribute name="content" type="binary">PGEgaHJlZj0iPD9waHAgZWNobyBob21lX3VybCgpOyA/PiI+CiAgPCEtLSA8aW1nIHNyYz0iIj4g
+LS0+CjwvYT4=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z124"></relationship>
+    </object>
+    <object type="SNIPPET" id="z126">
+        <attribute name="name" type="string">Custom Widget Areas</attribute>
+        <attribute name="modified" type="date">471303463.54686498641967773438</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z119"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z127"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z127">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.php</attribute>
+        <attribute name="content" type="binary">aWYgKGZ1bmN0aW9uX2V4aXN0cygncmVnaXN0ZXJfc2lkZWJhcicpKSB7CglyZWdpc3Rlcl9zaWRl
+YmFyKGFycmF5KAoJCSduYW1lJz0+ICdUb3AgVGFicycsCgkJJ2lkJyA9PiAndG9wX3RhYnMnLAoJCSdiZWZvcmVfd2lkZ2V0JyA9PiAnPGxpIGlkPSIlMSRzIiBjbGFzcz0id2lkZ2V0ICUyJHMiPicsCgkJJ2FmdGVyX3dpZGdldCcgPT4gJzwvbGk+JywKCQknYmVmb3JlX3RpdGxlJyA9PiAnPGgyIGNsYXNzPSJvZmZzY3JlZW4iPicsCgkJJ2FmdGVyX3RpdGxlJyA9PiAnPC9oMj4nLAoJKSk7Cn0KCjw/cGhwIGR5bmFtaWNfc2lkZWJhciggJ3RvcF90YWJzJyApOyA/Pg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z126"></relationship>
+    </object>
+    <object type="SNIPPET" id="z128">
+        <attribute name="name" type="string">Loop posts from specific category</attribute>
+        <attribute name="modified" type="date">472089232.43605899810791015625</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z119"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z129"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z129">
+        <attribute name="content" type="binary">LyogcmVtb3ZlIGBwb3N0X3R5cGVgIGlmIG5vdCB1c2luZyBhIGN1c3RvbSBwb3N0IHR5cGUgKi8K
+PD9waHAgcXVlcnlfcG9zdHMoIGFycmF5KCAncG9zdF90eXBlJyA9PiAndGhlX2Nyb3duJywgJ2NhdCcgPT4gMTgsICdzaG93cG9zdHMnID0+IDE2ICkgKTsKaWYgKCBoYXZlX3Bvc3RzKCkgKSA6IHdoaWxlICggaGF2ZV9wb3N0cygpICkgOiB0aGVfcG9zdCgpOyA/PgoJPGgyPjw/cGhwIGVjaG8gJHBvc3QtPnBvc3RfdGl0bGU7ID8+PC9oMj4KCTxwPjw/cGhwIHRoZV9jb250ZW50KCk7ID8+PC9wPgoJPGEgaHJlZj0iPD9waHAgZWNobyBnZXRfcGVybWFsaW5rKCRwb3N0LT5JRCk7ID8+Ij5saW5rPC9hPgo8P3BocCBlbmR3aGlsZTsgZW5kaWY7IHdwX3Jlc2V0X3F1ZXJ5KCk7ID8+
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.php</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z128"></relationship>
+    </object>
+</database>
