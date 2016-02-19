@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>3EAC816D-E733-4FC6-871F-4F27C21EB2E4</UUID>
-        <nextObjectID>143</nextObjectID>
+        <nextObjectID>146</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -105,7 +105,7 @@ c2hvdyBwbHVzIHNoaXBwaW5nIDstKSAtLT4KPD9waHAgfWVsc2V7ID8+CiAgCTxzcGFuIGNsYXNzPSJw
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z110"></relationship>
     </object>
     <object type="LIST" id="z112">
-        <attribute name="sort" type="int16">4</attribute>
+        <attribute name="sort" type="int16">5</attribute>
         <attribute name="name" type="string">grunt</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -113,7 +113,7 @@ c2hvdyBwbHVzIHNoaXBwaW5nIDstKSAtLT4KPD9waHAgfWVsc2V7ID8+CiAgCTxzcGFuIGNsYXNzPSJw
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z104"></relationship>
     </object>
     <object type="LIST" id="z113">
-        <attribute name="sort" type="int16">5</attribute>
+        <attribute name="sort" type="int16">6</attribute>
         <attribute name="name" type="string">woocommerce</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -129,7 +129,7 @@ dC1pbWFnZSB7CiAgZGlzcGxheTogdGFibGUtY2VsbDsKICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOwp9
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z116"></relationship>
     </object>
     <object type="LIST" id="z115">
-        <attribute name="sort" type="int16">3</attribute>
+        <attribute name="sort" type="int16">4</attribute>
         <attribute name="name" type="string">css</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -166,7 +166,7 @@ bWcgc3JjPSI8P3BocCBibG9naW5mbygndGVtcGxhdGVfZGlyZWN0b3J5Jyk7ID8+L2Fzc2V0cy9pbWFn
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z138 z124 z121 z143 z126 z128 z118 z141 z122"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z122 z128 z118 z138 z121 z126 z124 z141 z143"></relationship>
     </object>
     <object type="ASSET" id="z120">
         <attribute name="content" type="binary">PD9waHAgaWYoIGdldF9maWVsZCgnbWFpbl9ibG9ja190aXRsZScpICk6ID8+CiAgPGgxPjw/cGhw
@@ -257,7 +257,7 @@ Z2V0X3N0YXJ0X2RhdGUoJHBvc3QtPklELCBmYWxzZSwgJ0QnKTsgPz4KCi8vIERhdGUgaWUgMTIgICAg
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z132"></relationship>
     </object>
     <object type="LIST" id="z131">
-        <attribute name="sort" type="int16">2</attribute>
+        <attribute name="sort" type="int16">3</attribute>
         <attribute name="name" type="string">Events Calendar Pro</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -281,12 +281,12 @@ Z2V0X3N0YXJ0X2RhdGUoJHBvc3QtPklELCBmYWxzZSwgJ0QnKTsgPz4KCi8vIERhdGUgaWUgMTIgICAg
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
     <object type="LIST" id="z134">
-        <attribute name="sort" type="int16">6</attribute>
+        <attribute name="sort" type="int16">7</attribute>
         <attribute name="name" type="string">ACF</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z136 z133"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z133 z136"></relationship>
     </object>
     <object type="ASSET" id="z135">
         <attribute name="content" type="binary">Ly8gZWNobyBhIGZpZWxkCjw/cGhwIHRoZV9maWVsZCgndGl0bGUnKTsgPz4KCi8vIGVjaG8gYSBm
@@ -361,5 +361,35 @@ dF9hdHRhY2htZW50X2ltYWdlX3NyYyggZ2V0X3Bvc3RfdGh1bWJuYWlsX2lkKCAkcG9zdC0+SUQgKSwg
         <relationship name="list" type="1/1" destination="LIST" idrefs="z119"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z142"></relationship>
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z144">
+        <attribute name="content" type="binary">PD9waHAgCmZ1bmN0aW9uIGdmb3JtX2NvbHVtbl9zcGxpdHMoJGNvbnRlbnQsICRmaWVsZCwgJHZh
+bHVlLCAkbGVhZF9pZCwgJGZvcm1faWQpIHsKCWlmKElTX0FETUlOKSByZXR1cm4gJGNvbnRlbnQ7IC8vIG9ubHkgbW9kaWZ5IEhUTUwgb24gdGhlIGZyb250IGVuZAoKCSRmb3JtID0gUkdGb3Jtc01vZGVsOjpnZXRfZm9ybV9tZXRhKCRmb3JtX2lkLCB0cnVlKTsKCSRmb3JtX2NsYXNzID0gYXJyYXlfa2V5X2V4aXN0cygnY3NzQ2xhc3MnLCAkZm9ybSkgPyAkZm9ybVsnY3NzQ2xhc3MnXSA6ICcnOwoJJGZvcm1fY2xhc3NlcyA9IHByZWdfc3BsaXQoJy9bXG5cclx0IF0rLycsICRmb3JtX2NsYXNzLCAtMSwgUFJFR19TUExJVF9OT19FTVBUWSk7CgkkZmllbGRzX2NsYXNzID0gYXJyYXlfa2V5X2V4aXN0cygnY3NzQ2xhc3MnLCAkZmllbGQpID8gJGZpZWxkWydjc3NDbGFzcyddIDogJyc7CgkkZmllbGRfY2xhc3NlcyA9IHByZWdfc3BsaXQoJy9bXG5cclx0IF0rLycsICRmaWVsZHNfY2xhc3MsIC0xLCBQUkVHX1NQTElUX05PX0VNUFRZKTsKCQoJLy8gbXVsdGktY29sdW1uIGZvcm0gZnVuY3Rpb25hbGl0eQoJaWYoJGZpZWxkWyd0eXBlJ10gPT0gJ3NlY3Rpb24nKSB7CgoJCS8vIGNoZWNrIGZvciB0aGUgcHJlc2VuY2Ugb2YgbXVsdGktY29sdW1uIGZvcm0gY2xhc3NlcwoJCSRmb3JtX2NsYXNzX21hdGNoZXMgPSBhcnJheV9pbnRlcnNlY3QoJGZvcm1fY2xhc3NlcywgYXJyYXkoJ3R3by1jb2x1bW4nLCAndGhyZWUtY29sdW1uJykpOwoKCQkvLyBjaGVjayBmb3IgdGhlIHByZXNlbmNlIG9mIHNlY3Rpb24gYnJlYWsgY29sdW1uIGNsYXNzZXMKCQkkZmllbGRfY2xhc3NfbWF0Y2hlcyA9IGFycmF5X2ludGVyc2VjdCgkZmllbGRfY2xhc3NlcywgYXJyYXkoJ2dmb3JtX2NvbHVtbicpKTsKCgkJLy8gaWYgZmllbGQgaXMgYSBjb2x1bW4gYnJlYWsgaW4gYSBtdWx0aS1jb2x1bW4gZm9ybSwgcGVyZm9ybSB0aGUgbGlzdCBzcGxpdAoJCWlmKCFlbXB0eSgkZm9ybV9jbGFzc19tYXRjaGVzKSAmJiAhZW1wdHkoJGZpZWxkX2NsYXNzX21hdGNoZXMpKSB7IC8vIG1ha2Ugc3VyZSB0byB0YXJnZXQgb25seSBtdWx0aS1jb2x1bW4gZm9ybXMKCgkJCS8vIHJldHJpZXZlIHRoZSBmb3JtJ3MgZmllbGQgbGlzdCBjbGFzc2VzIGZvciBjb25zaXN0ZW5jeQoJCQkkdWxfY2xhc3NlcyA9IEdGQ29tbW9uOjpnZXRfdWxfY2xhc3NlcygkZm9ybSkuJyAnLiRmaWVsZFsnY3NzQ2xhc3MnXTsKCgkJCS8vIGNsb3NlIGN1cnJlbnQgZmllbGQncyBsaSBhbmQgdWwgYW5kIGJlZ2luIGEgbmV3IGxpc3Qgd2l0aCB0aGUgc2FtZSBmb3JtIGZpZWxkIGxpc3QgY2xhc3NlcwoJCQlyZXR1cm4gJzwvbGk+PC91bD48dWwgY2xhc3M9IicuJHVsX2NsYXNzZXMuJyI+PGxpIGNsYXNzPSJnZmllbGQgZ3NlY3Rpb24gZW1wdHkiPic7CgoJCX0KCX0KCglyZXR1cm4gJGNvbnRlbnQ7Cn0KYWRkX2ZpbHRlcignZ2Zvcm1fZmllbGRfY29udGVudCcsICdnZm9ybV9jb2x1bW5fc3BsaXRzJywgMTAsIDUpOwoKPz4KCjxzdHlsZT4KLmdmb3JtX3dyYXBwZXIudHdvLWNvbHVtbl93cmFwcGVyIHVsLmdmb3JtX2ZpZWxkcyB7CglkaXNwbGF5OiBub25lOwp9Ci5nZm9ybV93cmFwcGVyLnR3by1jb2x1bW5fd3JhcHBlciB1bC5nZm9ybV9maWVsZHMuZ2Zvcm1fY29sdW1uIHsKCWRpc3BsYXk6IGJsb2NrOwoJZmxvYXQ6IGxlZnQ7Cgl3aWR0aDogNTAlOwp9Ci5nZm9ybV93cmFwcGVyLnR3by1jb2x1bW5fd3JhcHBlciB1bC5nZm9ybV9jb2x1bW4gbGkuZ3NlY3Rpb246Zmlyc3QtY2hpbGQgewoJZGlzcGxheTogbm9uZTsKfQo8L3N0eWxlPg==
+</attribute>
+        <attribute name="notes" type="string">taken from http://www.jordancrown.com/multi-column-gravity-forms/
+
+In order to split the fields list, first we’ll need to designate where we want these splits to occur. This can be achieved by adding special section break elements to our form using the form editor. We can mark these as column breaks by adding a special class to these section breaks, such as .gform_column. For example, for a two column layout, we’d have a section break as the first form field and another section break wherever we need the right column’s field to start. It’s also a good idea to specify the type of layout the form will take on by providing a class to the form itself, such as .two-column. Not only will we use these classes for styling the columns via CSS, we will use these classes to selectively target the correct column break points when generating the form’s HTML.
+
+Using Gravity Forms’ gform_field_content filter hook, we can add the breaks to the unordered list to designate column breaks:
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.php</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z145"></relationship>
+    </object>
+    <object type="SNIPPET" id="z145">
+        <attribute name="name" type="string">Split form into multiple columns</attribute>
+        <attribute name="modified" type="date">477534707.00739097595214843750</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z146"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z144"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="LIST" id="z146">
+        <attribute name="sort" type="int16">2</attribute>
+        <attribute name="name" type="string">Gravity Forms</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z145"></relationship>
     </object>
 </database>
