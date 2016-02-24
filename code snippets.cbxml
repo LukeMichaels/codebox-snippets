@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>3EAC816D-E733-4FC6-871F-4F27C21EB2E4</UUID>
-        <nextObjectID>146</nextObjectID>
+        <nextObjectID>148</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -390,6 +390,23 @@ Using Gravity Forms’ gform_field_content filter hook, we can add the breaks to
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z145"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z145 z148"></relationship>
+    </object>
+    <object type="ASSET" id="z147">
+        <attribute name="notes" type="string">From : https://www.gravityhelp.com/documentation/article/embedding-a-form/</attribute>
+        <attribute name="content" type="binary">PD9waHAgZ3Jhdml0eV9mb3JtKCAkaWRfb3JfdGl0bGUsICRkaXNwbGF5X3RpdGxlID0gdHJ1ZSwg
+JGRpc3BsYXlfZGVzY3JpcHRpb24gPSB0cnVlLCAkZGlzcGxheV9pbmFjdGl2ZSA9IGZhbHNlLCAkZmllbGRfdmFsdWVzID0gbnVsbCwgJGFqYXggPSBmYWxzZSwgJHRhYmluZGV4LCAkZWNobyA9IHRydWUgKTs/PgoKLyoKJGlkX29yX3RpdGxlCihtaXhlZCkgKHJlcXVpcmVkKSBUaGUgaWQgb3IgdGl0bGUgb2YgdGhlIGZvcm0gdG8gYmUgZW1iZWRkZWQuCgokZGlzcGxheV90aXRsZQooYm9vbGVhbikgKG9wdGlvbmFsKSBXaGV0aGVyIG9yIG5vdCB0byBkaXNwbGF5IHRoZSBmb3JtIHRpdGxlLiBEZWZhdWx0cyB0byB0cnVlLgoKJGRpc3BsYXlfZGVzY3JpcHRpb24KKGJvb2xlYW4pIChvcHRpb25hbCkgV2hldGhlciBvciBub3QgdG8gZGlzcGxheSB0aGUgZm9ybSBkZXNjcmlwdGlvbi4gRGVmYXVsdHMgdG8gdHJ1ZS4KCiRkaXNwbGF5X2luYWN0aXZlCihib29sZWFuKSAob3B0aW9uYWwpIFdoZXRoZXIgb3Igbm90IHRvIGRpc3BsYXkgdGhlIGZvcm0gZXZlbiBpZiBpdCBpcyBpbmFjdGl2ZS4gRGVmYXVsdHMgdG8gZmFsc2UuCgokZmllbGRfdmFsdWVzCihhcnJheSkgKG9wdGlvbmFsKSBQYXNzIGFuIGFycmF5IG9mIGR5bmFtaWMgcG9wdWxhdGlvbiBwYXJhbWV0ZXIga2V5cyB3aXRoIHRoZWlyIGNvcnJlc3BvbmRpbmcgdmFsdWVzIHRvIGJlIHBvcHVsYXRlZC4gRXhhbXBsZSwgImFycmF5KCdwYXJhbWV0ZXJfbmFtZScgPT4gJ2N1c3RvbV92YWx1ZScpIi4gRGVmYXVsdHMgdG8gZmFsc2UuCgokYWpheAooYm9vbGVhbikgKG9wdGlvbmFsKSBXaGV0aGVyIG9yIG5vdCB0byB1c2UgQUpBWCBmb3IgZm9ybSBzdWJtaXNzaW9uLiBEZWZhdWx0cyB0byBmYWxzZS4KCiR0YWJpbmRleAooaW50ZWdlcikgKG9wdGlvbmFsKSBTcGVjaWZ5IHRoZSBzdGFydGluZyB0YWIgaW5kZXggZm9yIHRoZSBmaWVsZHMgb2YgdGhpcyBmb3JtLgoKJGVjaG8KKGJvb2xlYW4pIChvcHRpb25hbCkgV2hldGhlciB0byBlY2hvIHRoZSBmb3JtIGNvZGUgb3IgcmV0dXJuIGl0LiBEZWZhdWx0cyB0byB0cnVlLgoqLw==
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.php</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z148"></relationship>
+    </object>
+    <object type="SNIPPET" id="z148">
+        <attribute name="name" type="string">Embed a form</attribute>
+        <attribute name="modified" type="date">478026329.40575700998306274414</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z146"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z147"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
 </database>
