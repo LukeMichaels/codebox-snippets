@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>3EAC816D-E733-4FC6-871F-4F27C21EB2E4</UUID>
-        <nextObjectID>154</nextObjectID>
+        <nextObjectID>156</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -134,7 +134,7 @@ dC1pbWFnZSB7CiAgZGlzcGxheTogdGFibGUtY2VsbDsKICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOwp9
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z116"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z116 z156"></relationship>
     </object>
     <object type="SNIPPET" id="z116">
         <attribute name="name" type="string">Nice table styling</attribute>
@@ -454,6 +454,22 @@ cmF5KAogICAgJ3RvcF9uYXYnID0+IF9fKCAnVG9wIE5hdmlnYXRpb24nLCAndGV4dF9kb21haW4nICks
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST" idrefs="z119"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z153"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z155">
+        <attribute name="content" type="binary">bGkgewogIGxpc3Qtc3R5bGUtdHlwZTogZGlzYzsKICBsaXN0LXN0eWxlLXBvc2l0aW9uOiBpbnNp
+ZGU7CiAgdGV4dC1pbmRlbnQ6IC0xZW07CiAgcGFkZGluZy1sZWZ0OiAxZW07Cn0=
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.txt</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z156"></relationship>
+    </object>
+    <object type="SNIPPET" id="z156">
+        <attribute name="name" type="string">Indent multi-line \u3c00li\u3e00</attribute>
+        <attribute name="modified" type="date">486428504.98612600564956665039</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z115"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z155"></relationship>
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
 </database>
