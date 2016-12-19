@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>3EAC816D-E733-4FC6-871F-4F27C21EB2E4</UUID>
-        <nextObjectID>158</nextObjectID>
+        <nextObjectID>160</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -122,7 +122,7 @@ dC1pbWFnZSB7CiAgZGlzcGxheTogdGFibGUtY2VsbDsKICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOwp9
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z116 z156"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z160 z116 z156"></relationship>
     </object>
     <object type="SNIPPET" id="z116">
         <attribute name="name" type="string">Nice table styling</attribute>
@@ -477,6 +477,22 @@ cG9zdCBjYW4gaGF2ZSBtb3JlIHRoYW4gb25lIHRpdGxlKSAtLT4KPGgxPjw/cGhwIGZvcmVhY2goKGdl
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST" idrefs="z119"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z157"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z159">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.txt</attribute>
+        <attribute name="content" type="binary">QG1lZGlhIGFsbCBhbmQgKC13ZWJraXQtbWluLWRldmljZS1waXhlbC1yYXRpbzowKSBhbmQgKG1p
+bi1yZXNvbHV0aW9uOiAuMDAxZHBjbSkgewoKfQ==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z160"></relationship>
+    </object>
+    <object type="SNIPPET" id="z160">
+        <attribute name="name" type="string">Only target Google Chrome</attribute>
+        <attribute name="modified" type="date">503871649.38359600305557250977</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z115"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z159"></relationship>
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
 </database>
